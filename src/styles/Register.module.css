@@ -1,0 +1,313 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdf3;
+}
+
+.registerContainer {
+    width: 590px;
+    height: 893px;
+    padding: 36px;
+    margin-top: 128px;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 36px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 35.2px;
+    color: #222325;
+}
+
+.description {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #333333AD;
+}
+
+.form {
+    width: 518px;
+    height: auto;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-bottom: 16px;
+    /* gap: 24px; */
+}
+
+.formLabel {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #333333AD;
+}
+
+.formLabel span {
+    color: #D32E1F;
+}
+
+.formInput {
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.numberPhone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.numberPhone .region {
+    margin-top: -16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberPhone .flag {
+    width: 44px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    border: 1px solid #ddd;
+    background-color: #F4F5FA;
+    border-radius: 6px;
+}
+
+.numberPhone #code {
+    width: 112.67px;
+    height: 48px;
+    padding: 4px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.numberPhone .inputNumber {
+    margin-top: -16px;
+    width: 337.33px;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.otherAction {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.otherAction a {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #4A505C;
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.otherAction a:hover {
+    text-decoration: underline;
+}
+
+.formButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.formButton button {
+    width: 100%;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formButton .btnDaftar {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    background-color: #3ECF4C;
+}
+
+.formButton .btnDaftar:hover {
+    background-color: #3abb47;
+}
+
+.formButton .btnMasuk {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #3ECF4C;
+    background-color: #E2FCD9CC;
+}
+
+.formButton .btnMasuk:hover {
+    background-color: #cee5c6;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+    flex: 1;
+}
+
+.divider hr {
+    width: 50%;
+    border-top: 2px solid #f1f1f1;
+}
+
+.divider span {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #4A505C;
+    background-color: #fff;
+    position: relative;
+}
+
+.formButton .btn-google {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #4A505C;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+}
+
+.formButton .btn-google:hover {
+    background-color: #eaeaea;
+}
+
+.formButton .googleIcon {
+    width: 18px;
+    height: auto;
+}
+
+.btn-google:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        padding: 16px 24px;
+        height: 74px;
+    }
+
+    body {
+        padding: 28px 20px;  
+    }
+
+    .registerContainer {
+        margin-top: 65px;
+        width: 320px;
+        height: 866px;
+        padding: 20px;
+    }
+
+    .heading {
+        width: 280px;
+        height: 56px;
+        gap: 10px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        height: 26px;
+        font-size: 24px;
+        line-height: 26.4px;
+    }
+
+    .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+    }
+
+    .form {
+        width: 280px;
+        height: auto;
+    }
+
+    .formInput {
+        width: 280px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .numberPhone .region {
+        width: 122px;
+        height: auto;
+    }
+
+    .numberPhone .inputNumber {
+        width: 146px;
+        height: auto;
+    }
+}

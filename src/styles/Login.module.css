@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    width: 100vw;
+    height: 966px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdf3;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #fff;
+    margin-bottom: -64px;
+}
+
+.navbar {
+    width: 1120px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #333333AD;
+    gap: 36px;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    margin-left: 36px;
+}
+
+.loginContainer {
+    width: 590px;
+    height: 617px;
+    padding: 36px;
+    margin-top: 327px;
+    margin-bottom: 163.5px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 36px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32.5px;
+    color: #222325;
+}
+
+.description {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #333333AD;
+}
+
+.form {
+    width: 518px;
+    height: auto;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 24px;
+}
+
+.formLabel {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #4A505C;
+}
+
+.formLabel span {
+    color: #D32E1F;
+}
+
+.formInput {
+    font-family: "DM Sans", serif;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.otherAction {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.otherAction a {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #4A505C;
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.otherAction a:hover {
+    text-decoration: underline;
+}
+
+.formButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.formButton button {
+    width: 100%;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formButton .btnMasuk {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    background-color: #3ECF4C;
+}
+
+.formButton .btnMasuk:hover {
+    background-color: #3abb47;
+}
+
+.formButton .btnDaftar {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #3ECF4C;
+    background-color: #E2FCD9CC;
+}
+
+.formButton .btnDaftar:hover {
+    background-color: #cee5c6;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+    flex: 1;
+}
+
+.divider hr {
+    width: 50%;
+    border: none;
+    border-top: 2px solid #f1f1f1;
+}
+
+.divider span {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #4A505C;
+    background-color: #fff;
+    position: relative;
+}
+
+.formButton .btnGoogle {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #4A505C;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+}
+
+.formButton .btnGoogle:hover {
+    background-color: #eaeaea;
+}
+
+.formButton .googleIcon {
+    width: 18px;
+    height: auto;
+}
+
+.btnGoogle:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (max-width: 1400px) {
+    .loginContainer {
+        margin-top: 28px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        padding: 28px 20px;
+    }
+
+    .loginContainer {
+        margin-top: 68px;
+        margin-bottom: 78px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .heading {
+        width: 280px;
+        height: 56px;
+
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        height: 26px;
+        font-size: 14px;
+        line-height: 26.4px;
+        margin-top: 30px;
+    }
+
+    .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+    }
+
+    .form {
+        width: 280px;
+        height: auto;
+    }
+
+    .formLabel {
+        font-size: 14px;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+    }
+
+    .formInput {
+        width: 280px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .formField #email {
+        margin-bottom: -12px;
+    }
+
+    .formField #password {
+        margin-bottom: 12px;
+    }
+
+    .otherAction a {
+        font-size: 14px;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+    }
+
+    .formButton button {
+        width: 280px;
+        height: 34px;
+    }
+
+    .formButton .btnMasuk {
+        font-size: 14px;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+    }
+
+    .formButton .btnDaftar {
+        font-size: 14px;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+    }
+
+    .formButton .btnGoogle {
+        font-size: 14px;
+        line-height: 19.6px;
+        letter-spacing: 0.2px;
+    }
+}

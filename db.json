@@ -1,0 +1,120 @@
+{
+  "register": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "628123456789",
+      "password": "12345678"
+    },
+    {
+      "id": "3383",
+      "name": "jajang",
+      "email": "jajang@gmail.com",
+      "phone": "085137269035",
+      "password": "asdasd",
+      "confirmPassword": "asdasd"
+    },
+    {
+      "id": "0efe",
+      "name": "bape ganteng",
+      "email": "bape1@gmail.com",
+      "phone": "1234567890",
+      "password": "asdasd",
+      "confirmPassword": "asdasd"
+    },
+    {
+      "id": "fe54",
+      "name": "bape ganteng",
+      "email": "bapeganteng@gmail.com",
+      "phone": "1234567890",
+      "password": "asd123",
+      "confirmPassword": "asd123"
+    },
+    {
+      "id": "dd4a",
+      "name": "baso urat",
+      "email": "basourat@gmail.com",
+      "phone": "0987654321",
+      "password": "asd321",
+      "confirmPassword": "asd321"
+    },
+    {
+      "id": "fa0d",
+      "name": "dandi",
+      "email": "dandifakboy@gmail.com",
+      "phone": "085137269035",
+      "password": "asdasd",
+      "confirmPassword": "asdasd"
+    }
+  ],
+  "login": [
+    {
+      "email": "jajang@gmail.com",
+      "password": "asdasd"
+    },
+    {
+      "id": "62e9",
+      "email": "bapeganteng@gmail.com",
+      "password": "asd123"
+    },
+    {
+      "id": "629b",
+      "email": "bapeganteng@gmail.com",
+      "password": "asd123"
+    },
+    {
+      "id": "b867",
+      "email": "basourat@gmail.com",
+      "password": "sdadasdasdwqdqw"
+    },
+    {
+      "id": "6ea1",
+      "email": "basourat@gmail.com",
+      "password": "sdadasdasdwqdqw"
+    },
+    {
+      "id": "9e95",
+      "email": "basourat@gmail.com",
+      "password": "asd321"
+    },
+    {
+      "id": "5e9f",
+      "email": "basourat@gmail.com",
+      "password": "asd321"
+    },
+    {
+      "id": "a6a8",
+      "email": "basourat@gmail.com",
+      "password": "asd321"
+    },
+    {
+      "id": "9c54",
+      "email": "basourat@gmail.com",
+      "password": "asd321"
+    },
+    {
+      "id": "bc44",
+      "email": "dandifakboy@gmail.com",
+      "password": "asdasd"
+    }
+  ],
+  "profile": [
+    {
+      "id": "62e9",
+      "name": "bape ganteng",
+      "email": "bapeganteng@gmail.com",
+      "phone": "1234567890",
+      "password": "asd123",
+      "confirmPassword": "asd123"
+    },
+    {
+      "id": "b867",
+      "name": "baso urat",
+      "email": "basourat@gmail.com",
+      "phone": "0987654321",
+      "password": "asd321",
+      "confirmPassword": "asd321"
+    }
+  ]
+}

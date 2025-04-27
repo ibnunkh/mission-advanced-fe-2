@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerProfilePage {
+    display: flex;
+    height: auto;
+    gap: 36px;
+    margin-top: 128px;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar {
+    width: 292px;
+    height: 291px;
+    margin-left: 120px;
+    gap: 24px;
+}
+
+.sidebar .sidebarHeader {
+    height: 56px;
+    gap: 10px;
+}
+
+.sidebarHeader h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222325;
+}
+
+.sidebarHeader p {
+    font-family: 'DM Sans', serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #333333AD;
+}
+
+.cardSidebar {
+    height: 211px;
+    background-color: #fff;
+    border: 1px solid #3A35411F;
+    border-radius: 10px;
+    padding: 24px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.cardSidebar .active {
+    display: flex;
+    width: 244px;
+    height: 49px;
+    border: 1px solid #FFBD3A;
+    border-radius: 4px;
+    padding: 12px;
+    gap: 12px;
+    background-color: #FFF7D7CC;
+    font-family: 'DM Sans', serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: #FFBD3A;
+}
+
+.cardSidebar .disabled {
+    display: flex;
+    width: 244px;
+    height: 49px;
+    padding: 12px;
+    gap: 12px;
+    font-family: 'DM Sans', serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: #3A354161;
+}
+
+.profileForm {
+    width: 872px;
+    height: auto;
+    padding: 24px;
+    gap: 24px;
+    border: 1px solid #3A35411F;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.profileHeader {
+    display: flex;
+    align-items: center;
+    width: 824px;
+    height: 92px;
+    gap: 16px;
+}
+
+.profileHeader .textBox {
+    width: 180px;
+    height: 87px;
+    gap: 8px;
+}
+
+.profileHeader h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222325;
+}
+
+.profileHeader p {
+    font-family: 'DM Sans', serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+.profileHeader #gantiFoto {
+    font-family: 'DM Sans', serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #F64920;
+}
+
+.profileHeader #gantiFoto:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dividerProfile hr {
+    color: #3A35411F;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    font-family: 'DM Sans', serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #333333AD;
+}
+
+.formGroup #labelName {
+    color: #3ECF4C;
+}
+
+.formGroup input {
+    width: 264px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid #3A35411F;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.formGroup .nameInput {
+    border: 1px solid #3ECF4C;
+}
+
+.formGroup select {
+    width: 90px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #3A35411F;
+}
+
+.formGroup #noHp {
+    width: 158px;
+}
+
+#jenisKelamin {
+    display: none;
+}
+
+#numberBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    gap: 16px;
+}
+
+#password {
+    display: none;
+}
+
+#confirmPassword {
+    display: none;
+}
+
+.submitSection {
+    text-align: right;
+    margin-top: 24px;
+}
+
+.submitSection button {
+    width: 112px;
+    height: 46px;
+    font-family: 'DM Sans', serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #3ECF4C;
+}
+
+.submitSection button:hover {
+    background-color: #309d3b;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+    .containerProfilePage {
+        display: flex;
+        width: 320px;
+        height: auto;
+        flex-direction: column;
+        margin-top: 56px;
+        margin-bottom: 28px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sidebar {
+        width: 320px;
+        height: auto;
+        margin: auto;
+
+    }
+
+    .profileForm {
+        width: 320px;
+        height: auto;
+    }
+
+    .profileHeader {
+        width: 272px;
+        height: auto;
+    }
+
+    .profileHeader .profileAvatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .profileHeader .textBox {
+        width: 159px;
+        height: auto;
+    }
+
+    .textBox h5 {
+        font-size: 16px;
+    }
+
+    .textBox p {
+        font-size: 16px;
+    }
+
+    .formGrid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #jenisKelamin {
+        display: flex;
+    }
+
+    #jenisKelamin select {
+        width: 265px;
+    }
+
+    #password {
+        display: flex;
+    }
+
+    #confirmPassword {
+        display: flex;
+    }
+
+    .submitSection button {
+        width: 272px;
+        height: 34px;
+        font-size: 14px;
+    }
+}
