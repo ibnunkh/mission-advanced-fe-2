@@ -2,7 +2,7 @@ import React from 'react'
 import LinkedIn from '../../assets/images/linkedin-icon.svg'
 import Facebook from '../../assets/images/facebook-icon.svg'
 import Instagram from '../../assets/images/instagram-icon.svg'
-import Twitter from '../../assets/images/twitter-icon.svg'
+import Twitter from '../../assets/images/Twitter-icon.svg'
 import styles from "../../styles/Home.module.css"
 
 export default function SocialMedia() {
